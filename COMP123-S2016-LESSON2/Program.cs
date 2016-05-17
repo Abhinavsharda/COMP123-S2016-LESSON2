@@ -8,9 +8,8 @@ using System.Threading.Tasks;
  * Author: Abhinav
  * Date: May 17, 2016
  * Description: Adcanced demo lessons for lesson 2
- * version: 0.0.2 -Added a refrences to driver class
- *                 from unit test
- */
+ * version: 0.0.3 - created addXandY method and assiciated test
+  */
 
 
 namespace COMP123_S2016_LESSON2
@@ -37,7 +36,14 @@ namespace COMP123_S2016_LESSON2
             result = addXandY(x, y);
             Console.WriteLine(result);
         }
-        static int addXandY(int firstNumber, int secondNumber)
+        /**
+         * simple method to add two values
+         * 
+         * @method addXandY
+         * @param {int} firstNumber
+         * @param {int} secondNumber-
+         */
+       public static int addXandY(int firstNumber, int secondNumber)
         {
             int result = 0;
             result = firstNumber + secondNumber;
